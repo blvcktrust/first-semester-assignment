@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    background: white;
+    z-index: 2;
+}
+
+#my-urls, #features, #pricing, #analytics, #faqs, #rlo {
+    padding-top: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #0065FE;
+}
+
+.login-div a {
+    color: #0065FE;
+    margin-right: 15px;
+}
+
+.login-div button {
+    width: 120px;
+    padding: 15px;
+    background: #0065FE;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+#my-urls {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#my-urls div {
+    margin-top: 30px;
+}
+
+#features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px
+}
+
+#features div {
+    margin-top: 30px;
+}
+
+#pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#pricing div {
+    margin-top: 30px;
+}
+
+#analytics {
+    width: 100%;
+    margin-top: 200px;
+}
+
+#analytics div img {
+    width: 100%;
+}
+
+#faqs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px
+}
+
+#faqs div {
+    margin-top: 30px;
+}
+
+#rlo {
+    width: 100%;
+    margin-top: 200px;
+}
+
+#rlo div img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+footer img {
+    width: 100%;
+}
